@@ -1,6 +1,6 @@
 {
   "name": "smithsonian",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "web interface for Metalsmith",
   "main": "lib/index.js",
   "scripts": {
@@ -13,14 +13,14 @@
     "express",
     "http"
   ],
-  "author": "Chris Andrejewski",
+  "author": "Tamás András Horváth",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.6.5",
-    "metalsmith": "^0.9.0",
-    "express": "^4.8.5",
-    "defaults": "^1.0.0",
-    "jade": "^1.5.0"
+    "body-parser": "~1.14.2",
+    "defaults": "~1.0.0",
+    "express": "~4.13.3",
+    "jade": "~1.11.0",
+    "metalsmith": "~2.1.0"
   },
   "directories": {
     "test": "test"
@@ -28,10 +28,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrejewski/smithsonian.git"
+    "url": "https://github.com/icetee/smithsonian.git"
   },
   "bugs": {
-    "url": "https://github.com/andrejewski/smithsonian/issues"
+    "url": "https://github.com/icetee/smithsonian/issues"
   },
-  "homepage": "https://github.com/andrejewski/smithsonian"
+  "homepage": "https://github.com/icetee/smithsonian"
 }
